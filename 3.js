@@ -86,8 +86,8 @@ console.log(a == b);
 function formatDate(date) {
     var type = {}.toString.call(date).slice(8, -1);
     var type2 = typeof date;
-    console.log(type);
-    console.log(type2);
+    //console.log(type);
+    //console.log(type2);
 
     switch (type) {
         case "Number": date = new Date(date * 1000);
@@ -113,3 +113,6 @@ function formatDate(date) {
 
 console.log(formatDate(1234567890));
 console.log(formatDate([2014, 0, 1]));
+console.log(formatDate("2011-10-02"));
+console.log(formatDate(new Date(2014, 0, 1)));
+
