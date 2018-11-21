@@ -1,0 +1,29 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ecf0f1;
+	color: #333;
+	font-size: 1.05em;
+}
+ .wrapper {
+	padding: 50px;
+	margin: 50px auto;
+	border: 1px solid #767575;
+	max-width: 300px;
+}
+.wrapper h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.location {
+	text-align: center;
+}
+.temperature {
+	margin-top: 30px;
+	text-align: center;
+	color: #c0392b;
+}
+
